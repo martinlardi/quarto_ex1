@@ -1,0 +1,22 @@
+project:
+  type: book
+
+book:
+  title: "quarto_ex1"
+  author: "Jane Doe"
+  date: "4/11/2023"
+  chapters:
+    - index.qmd
+    - chap2.qmd
+
+format:
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyfoot[R]{Right Footer\\Line 2 Right Footer}
+        \fancyfoot[L]{Left Footer\\Line 2 Left Footer}
+
+editor: visual
+
