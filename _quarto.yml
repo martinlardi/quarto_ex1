@@ -3,8 +3,6 @@ project:
 
 book:
   title: "quarto_ex1"
-  author: "Jane Doe"
-  date: "4/11/2023"
   chapters:
     - index.qmd
     - chap2.qmd
